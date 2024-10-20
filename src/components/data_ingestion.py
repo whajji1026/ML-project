@@ -63,3 +63,18 @@ class DataIngestion:
 if __name__=='__main__':
     obj=DataIngestion()
     obj.initiate_data_ingestion()
+
+
+
+'''the @dataclass decorator automatically generates the __init__ method for you,
+ based on the class attributes.
+You dont need to manually define the constructor for simple classes.
+DataIngestionConfig is a class that stores paths as attributes, and 
+@dataclass automatically creates an initializer.
+
+Without @dataclass it would be:
+class DataIngestionConfig:
+    def __init__(self):
+        self.train_data_path = os.path.join('artifacts', 'train.csv')
+        self.test_data_path = os.path.join('artifacts', 'test.csv')
+        self.raw_data_path = os.path.join('artifacts', 'data.csv')'''
