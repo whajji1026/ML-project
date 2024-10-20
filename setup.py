@@ -10,6 +10,13 @@ project as a package
 
 hypen_e_dot='-e .'
 
+'''Editable Mode ( pip install -e . )
+When you install a Python package in editable mode (also known as development mode), 
+Python will execute the package directly from the source code directory.
+This means any changes you make to the source code should be reflected immediately 
+without the need for reinstallation.
+'''
+
 def get_requirements(file_path:str)->List[str]:
     '''
     this function will return the list of requirements
