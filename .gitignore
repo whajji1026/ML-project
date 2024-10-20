@@ -102,8 +102,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.artifacts/
-.catboost_info/
+
 .env
 .venv
 env/
@@ -129,3 +128,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+catboost_info/*
+artifacts/*
