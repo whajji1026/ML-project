@@ -21,3 +21,19 @@ logging.basicConfig(
 
 
 
+# # Test case in the exception.py file
+# if __name__ == "__main__":
+
+#     try:
+#     # An operation that causes an error (division by zero)
+#         result = 1 / 0
+
+#     except Exception as e:
+#         # Log the error message using the custom exception and the logger
+#         logging.error("An error occurred")
+        
+#         # Raise a custom exception and log the details
+#         custom_exception = CustomException(str(e), sys)
+#         logging.error(custom_exception)
+
+
